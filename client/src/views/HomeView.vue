@@ -1,6 +1,6 @@
 <template>
-  <div class="home">
-    <h1>Create a Budget!</h1>
+  <div class="auth-wrapper">
+    <div class="auth-inner">Hello</div>
   </div>
 </template>
 
@@ -11,3 +11,7 @@ export default {
   name: 'HomeView'
 }
 </script>
+
+<style scoped>
+
+</style>
