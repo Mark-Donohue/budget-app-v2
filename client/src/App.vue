@@ -57,11 +57,22 @@ import NavigationBar from './components/NavigationBar.vue';
   }
 
   .auth-inner {
+    border-radius: 15px;
     width: 450px;
     margin: auto;
     background: #FFFFFF;
     box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
     padding: 40px, 55px, 45px, 55px;
+  }
+
+  .auth-wrapper label {
+    padding-left: 5px;
+  }
+
+  .auth-wrapper .form-group {
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
 
   .auth-wrapper .form-control:focus {
@@ -73,6 +84,7 @@ import NavigationBar from './components/NavigationBar.vue';
     text-align: center;
     margin: 0;
     line-height: 1;
+    padding-top: 20px;
     padding-bottom: 20px;
   }
 

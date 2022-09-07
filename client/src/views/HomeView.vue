@@ -1,6 +1,8 @@
 <template>
   <div class="auth-wrapper">
-    <div class="auth-inner">Hello</div>
+    <div class="auth-inner">
+      <h3>Welcome!</h3>
+    </div>
   </div>
 </template>
 
