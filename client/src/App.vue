@@ -70,9 +70,9 @@ import NavigationBar from './components/NavigationBar.vue';
   }
 
   .auth-wrapper .form-group {
-    padding-bottom: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .auth-wrapper .form-control:focus {
