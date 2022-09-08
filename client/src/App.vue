@@ -88,6 +88,15 @@ import NavigationBar from './components/NavigationBar.vue';
     padding-bottom: 20px;
   }
 
+  .auth-wrapper p {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
   .custom-control-label {
     font-weight: 400;
   }
