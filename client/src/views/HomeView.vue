@@ -10,7 +10,10 @@
 // @ is an alias to /src
 
 export default {
-  name: 'HomeView'
+  name: 'HomeView',
+  async created() {
+    // Axios call to get currently authenticated user
+  }
 }
 </script>
 
