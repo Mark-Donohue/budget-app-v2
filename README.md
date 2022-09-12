@@ -5,5 +5,4 @@ How to Run Locally:
 
 Client
 `npm run serve`
-
 Server
