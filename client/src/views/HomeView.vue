@@ -2,6 +2,9 @@
   <div class="auth-wrapper">
     <div class="auth-inner">
       <h3>Welcome!</h3>
+      <div class="btn-login">
+        <button class="btn btn-primary btn-block">Build a Budget</button>
+      </div>
     </div>
   </div>
 </template>
@@ -18,5 +21,9 @@ export default {
 </script>
 
 <style scoped>
+  .auth-wrapper .btn-login {
+    text-align: center;
+    padding-bottom: 5px;
+  }
 
 </style>
