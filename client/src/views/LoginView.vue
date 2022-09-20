@@ -39,12 +39,19 @@
 </script>
 
 <style scoped>
-  .auth-wrapper .btn-login {
+  .auth-wrapper h3 {
     text-align: center;
-    padding-bottom: 5px;
+    margin: 0;
+    line-height: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
 
-  .auth-wrapper .btn {
-    width: 40%;
+  .auth-wrapper .btn-login {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    width: 100%;
   }
 </style>

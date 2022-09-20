@@ -28,6 +28,9 @@
           <button class="btn btn-primary btn-block">Sign Up</button>
         </div>
       </form>
+      <div class="login-redirect">
+        <p>Already registerd? <a href="/login">Sign in here.</a></p>
+      </div>
     </div>
   </div>
 </template>
@@ -63,16 +66,32 @@
 </script>
 
 <style scoped>
+  .auth-wrapper h3 {
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+
   .auth-wrapper p {
     text-align: center;
+    margin: 0;
+    line-height: 1;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .auth-wrapper .btn-login {
     text-align: center;
-    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    width: 100%;
   }
 
-  .auth-wrapper .btn {
-    width: 40%;
+  .login-redirect {
+    text-align: center;
   }
 </style>

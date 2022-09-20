@@ -5,6 +5,7 @@
   </nav> -->
   <NavigationBar/>
   <router-view/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 </template>
 
 <script>
@@ -49,6 +50,17 @@ import NavigationBar from './components/NavigationBar.vue';
     box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
   }
 
+  .card {
+    background: #FFFFFF;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    position: relative;
+    top: 80px;
+    border-radius: 15px;
+    margin: auto;
+    width: 90%;
+    height: 80%;
+  }
+
   .auth-wrapper {
     display: flex;
     justify-content: center;
@@ -70,7 +82,7 @@ import NavigationBar from './components/NavigationBar.vue';
   }
 
   .auth-wrapper .form-group {
-    padding-bottom: 10px;
+    padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
   }
@@ -78,23 +90,6 @@ import NavigationBar from './components/NavigationBar.vue';
   .auth-wrapper .form-control:focus {
     border-color: #167BFF;
     box-shadow: none;
-  }
-
-  .auth-wrapper h3 {
-    text-align: center;
-    margin: 0;
-    line-height: 1;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-
-  .auth-wrapper p {
-    text-align: center;
-    margin: 0;
-    line-height: 1;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
   }
 
   .custom-control-label {

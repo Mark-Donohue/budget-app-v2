@@ -1,6 +1,6 @@
 <template>
-  <div class="auth-wrapper">
-    <div class="auth-inner">
+  <div class="card">
+    <div class="card-body">
       <h3>Welcome!</h3>
       <div class="btn-login">
         <button class="btn btn-primary btn-block">Build a Budget</button>
