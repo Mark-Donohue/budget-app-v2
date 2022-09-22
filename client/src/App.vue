@@ -61,37 +61,6 @@ import NavigationBar from './components/NavigationBar.vue';
     height: 80%;
   }
 
-  .auth-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-  }
-
-  .auth-inner {
-    border-radius: 15px;
-    width: 450px;
-    margin: auto;
-    background: #FFFFFF;
-    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
-    padding: 40px, 55px, 45px, 55px;
-  }
-
-  .auth-wrapper label {
-    padding-left: 5px;
-  }
-
-  .auth-wrapper .form-group {
-    padding-bottom: 3px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .auth-wrapper .form-control:focus {
-    border-color: #167BFF;
-    box-shadow: none;
-  }
-
   .custom-control-label {
     font-weight: 400;
   }

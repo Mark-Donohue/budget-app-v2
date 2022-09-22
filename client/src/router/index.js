@@ -2,7 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import LoginView from '../views/LoginView.vue'
 import RegisterView from '../views/RegisterView.vue'
-import NotFoundViewVue from '@/views/NotFoundView.vue'
+import ForgotView from '../views/ForgotView.vue'
+import NotFoundView from '../views/NotFoundView.vue'
 
 const routes = [
   {
@@ -18,9 +19,13 @@ const routes = [
     name: 'Register',
     component: RegisterView,
   }, {
+    path: '/forgot',
+    name: 'Forgot',
+    component: ForgotView
+  }, {
     path: '/:pathMatch(.*)*',
     name: 'NotFound',
-    component: NotFoundViewVue,
+    component: NotFoundView,
   }
 ]
 

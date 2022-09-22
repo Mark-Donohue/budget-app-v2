@@ -30,6 +30,7 @@
       </form>
       <div class="login-redirect">
         <p>Already registerd? <a href="/login">Sign in here.</a></p>
+        <p>Forgot password? <a href="/forgot">Reset password here.</a></p>
       </div>
     </div>
   </div>
@@ -93,5 +94,38 @@
 
   .login-redirect {
     text-align: center;
+  }
+
+  .auth-inner {
+    position: relative;
+    top: 80px;
+    border-radius: 15px;
+    width: 450px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+    padding: 40px, 55px, 45px, 55px;
+  }
+
+  .auth-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .auth-wrapper label {
+    padding-left: 5px;
+  }
+
+  .auth-wrapper .form-group {
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .auth-wrapper .form-control:focus {
+    border-color: #167BFF;
+    box-shadow: none;
   }
 </style>
