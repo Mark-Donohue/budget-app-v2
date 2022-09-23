@@ -7,4 +7,4 @@ Client
 `npm run serve`
 
 Server
-`npm run serve`
+`npm run dev`
