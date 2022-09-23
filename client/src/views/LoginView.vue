@@ -6,12 +6,12 @@
         <div class="form-group">
           <i class="fa fa-user" aria-hidden="true"></i>
           <label>Email</label>
-          <input type="email" placeholder="Enter your email or username" class="form-control" v-model="email"/>
+          <input type="email" class="form-control" v-model="email"/>
         </div>
         <div class="form-group">
           <i class="fa fa-lock" aria-hidden="true"></i>
           <label>Password</label>
-          <input type="password" placeholder="Enter your password" class="form-control" v-model="password"/>
+          <input type="password" class="form-control" v-model="password"/>
         </div>
         <div class="btn-login">
           <button class="btn btn-primary btn-block">Login</button>

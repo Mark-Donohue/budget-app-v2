@@ -98,7 +98,6 @@
 
   .auth-inner {
     position: relative;
-    top: 80px;
     border-radius: 15px;
     width: 450px;
     margin: auto;
