@@ -28,7 +28,7 @@ const UserSchema = mongoose.Schema({
 });
 
 // Generate a salt and hash user passwords
-Schema.pre('save', function (next) {
+UserSchema.pre('save', function (next) {
   const user = this;
   if (this.isModified('password') || this.isNew) {
     bcrypt.genSalt(10, (error, salt) => {
@@ -51,7 +51,7 @@ Schema.pre('save', function (next) {
 });
 
 
-Schema.methods.comparePassword = function (password, callback) {
+UserSchema.methods.comparePassword = function (password, callback) {
   bcrypt.compare(password, this.password, (error, matches) => {
     if (error) {
       return callback(error);
@@ -61,4 +61,4 @@ Schema.methods.comparePassword = function (password, callback) {
   });
 };
 
-mongoose.model('User', Schema);
+mongoose.model('User', UserSchema);
