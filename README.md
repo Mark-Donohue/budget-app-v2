@@ -3,8 +3,8 @@ A simple web application for personal budgeting. The application is divided into
 
 How to Run Locally:
 
-Client
+Client UI
 `npm run serve`
 
-Server
+Server API
 `npm run dev`
