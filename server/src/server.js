@@ -19,6 +19,14 @@ app.use(passport.initialize());
 
 require('./routes')(app);
 
+app.set('budgetappsecret', config.secret);
+
+consign({ cwd: 'services' })
+      .include('BudgetManagerAPI/app/setup')
+      .then('BudgetManagerAPI/app/api')
+      .then('BudgetManagerAPI/app/routes')
+      .into(app);
+
 app.listen('8000', () => {
   console.log("Server started on port 8000.");
 });
