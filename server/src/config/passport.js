@@ -1,3 +1,4 @@
+// Credit to Gustavo Domaradzki 
 const PassportJWT = require('passport-jwt');
 const ExtractJWT = PassportJWT.ExtractJwt;
 const Strategy = PassportJWT.Strategy;
