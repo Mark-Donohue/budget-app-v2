@@ -7,14 +7,14 @@
 </template>
 
 <script>
-  export default {
-    name: 'NotFoundView'
-  }
+export default {
+  name: "NotFoundView",
+};
 </script>
 
 <style scoped>
-  h1 {
-    text-align: center;
-    padding-top: 5px;
-  }
+h1 {
+  text-align: center;
+  padding-top: 5px;
+}
 </style>

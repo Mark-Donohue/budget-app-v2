@@ -13,17 +13,16 @@
 // @ is an alias to /src
 
 export default {
-  name: 'HomeView',
+  name: "HomeView",
   async created() {
     // Axios call to get currently authenticated user
-  }
-}
+  },
+};
 </script>
 
 <style scoped>
-  .auth-wrapper .btn-login {
-    text-align: center;
-    padding-bottom: 5px;
-  }
-
+.auth-wrapper .btn-login {
+  text-align: center;
+  padding-bottom: 5px;
+}
 </style>

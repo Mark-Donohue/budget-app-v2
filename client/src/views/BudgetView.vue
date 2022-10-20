@@ -3,11 +3,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'BudgetView',
-  };
+export default {
+  name: "BudgetView",
+};
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
