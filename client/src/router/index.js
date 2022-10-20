@@ -1,37 +1,41 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import LoginView from '../views/LoginView.vue'
-import RegisterView from '../views/RegisterView.vue'
-import ForgotView from '../views/ForgotView.vue'
-import NotFoundView from '../views/NotFoundView.vue'
+import { createRouter, createWebHistory } from "vue-router";
+import HomeView from "../views/HomeView.vue";
+import LoginView from "../views/LoginView.vue";
+import RegisterView from "../views/RegisterView.vue";
+import ForgotView from "../views/ForgotView.vue";
+import NotFoundView from "../views/NotFoundView.vue";
 
 const routes = [
   {
-    path: '/',
-    name: 'Home',
+    path: "/",
+    name: "Home",
     component: HomeView,
-  }, {
-    path: '/login',
-    name: 'Login',
+  },
+  {
+    path: "/login",
+    name: "Login",
     component: LoginView,
-  }, {
-    path: '/register',
-    name: 'Register',
+  },
+  {
+    path: "/register",
+    name: "Register",
     component: RegisterView,
-  }, {
-    path: '/forgot',
-    name: 'Forgot',
-    component: ForgotView
-  }, {
-    path: '/:pathMatch(.*)*',
-    name: 'NotFound',
+  },
+  {
+    path: "/forgot",
+    name: "Forgot",
+    component: ForgotView,
+  },
+  {
+    path: "/:pathMatch(.*)*",
+    name: "NotFound",
     component: NotFoundView,
-  }
-]
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router;
